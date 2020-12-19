@@ -1,0 +1,45 @@
+{
+  "name": "adventofcode2019",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "mocha --require challenges/test/test-helper.ts challenges/test/1.spec.ts --recursive",
+    "start": "nodemon --exec babel-node --extensions \".ts\" index.ts",
+    "babel": "babel-node index.ts --extensions \".ts\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opr/adventofcode2019.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/opr/adventofcode2019/issues"
+  },
+  "homepage": "https://github.com/opr/adventofcode2019#readme",
+  "dependencies": {
+    "@babel/cli": "^7.7.5",
+    "@babel/core": "^7.7.5",
+    "@babel/node": "^7.7.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.7.4",
+    "@babel/plugin-transform-regenerator": "^7.7.5",
+    "@babel/plugin-transform-runtime": "^7.7.5",
+    "@babel/preset-env": "^7.7.5",
+    "@babel/preset-typescript": "^7.7.4",
+    "@babel/register": "^7.7.4",
+    "@babel/runtime": "^7.7.5",
+    "@types/chai": "^4.2.6",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.12.14",
+    "@typescript-eslint/eslint-plugin": "^2.10.0",
+    "@typescript-eslint/parser": "^2.10.0",
+    "chai": "^4.2.0",
+    "deep-equal-in-any-order": "^1.0.21",
+    "eslint": "^6.7.2",
+    "iter-tools": "^7.0.0-rc.0",
+    "mocha": "^6.2.2",
+    "nodemon": "^2.0.1",
+    "typescript": "^3.7.3"
+  }
+}
